@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args){
         TextEditor te = new TextEditor("Hello, user! How are you?");
 
-/*        te.arrStrings();
+        te.arrStrings();
+        te.delSpaces();
 
         String str1 = "Java";
         String str2 = "JAVA";
@@ -24,8 +25,6 @@ public class Main {
         str1 = null;
 
         System.out.println(str1 == null);
-*/
-        te.delSpaces();
 
     }
 }
